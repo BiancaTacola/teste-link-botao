@@ -1,0 +1,42 @@
+body {
+  font-family: 'Taviraj', serif;
+}
+div {
+  width: 90%;
+  height: 500xp;
+  margin: 10px auto; /* deixar no centro*/
+  padding: 30px 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(../../assets/image/fundo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%; /* sempre centralizado*/
+  border-radius: 7px;
+}
+div h2 {
+  font-size: 45px;
+  margin: 50px 30px;
+  color: #fff;
+}
+div p {
+  margin: 30px 30px 60px;
+  width: 40%;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+div a {
+  margin: 30px;
+  text-decoration: none;
+  border: 2px solid rgb(82, 147, 211);
+  background-color: rgb(82, 147, 211);
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 7px;
+  font-weight: 600;
+}
+div a:hover {
+  background-color: transparent;
+  color: rgb (82, 147, 211);
+}
